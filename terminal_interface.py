@@ -1,6 +1,8 @@
 import pymongo
 import os
 
+# SETUP VARIABLES
+# we assume that the database is called "CA2" and the collections are already imported
 db_name = "CA2"
 col = None
 current_col = None
@@ -19,6 +21,7 @@ def display_collection(client):
         print("No collections found please restart the program.")
         exit()
     else:
+        # print the collection names with a little bit of formatting
         for collection in collections:
             print("- " + collection)
     return
@@ -27,6 +30,7 @@ def display_collection(client):
 def display_collection_data(collection):
     for data in collection.find({}, {"_id": 0, "region": {"name": 1}, "poverty_indicator": {"label": 1}}):
         for key, value in data.items():
+            # print the documents with a some formatting because the data is not very well formatted as it is
             print(f"{key}: {value}")
         print("\n")
     input("Press any key to continue...")
@@ -53,8 +57,10 @@ def update_document_to_col(collection):
     _filter = {filter_key: filter_value}
     data = {}
     for key in collection.find_one():
+        # skip the _id field
         if key == "_id":
             continue
+        # ask the user for the new value of the field and update the data dictionary
         value = input(f"Enter new value for {key} (leave blank to skip): ")
         if value:
             data[key] = value
@@ -72,6 +78,7 @@ def delete_document_from_col(collection):
     filter_value = input(f"Enter the value of {filter_key} to filter by: ")
     _filter = {filter_key: filter_value}
     confirmation = input(f"Are you sure you want to delete the document(s) matching {_filter}? (yes/no): ").strip().lower()
+    # Delete the document if the user confirms
     if confirmation == "yes":
         result = collection.delete_one(_filter)
         if result.deleted_count > 0:
@@ -89,6 +96,7 @@ def find_document_from_col(collection):
     filter_value = input(f"Enter the value of {filter_key} to filter by: ")
     _filter = {filter_key: filter_value}
     result = collection.find(_filter)
+    # print the document(s) if found in the result
     if result:
         for data in result:
             for key, value in data.items():
@@ -101,6 +109,7 @@ def find_document_from_col(collection):
 
 # PRINT OPTIONS
 def print_options():
+    # clear the terminal screen and print the possibilities
     os.system('clear')
     print("\nChoose an option:")
     print(f"1. Display all data from {current_col}")
@@ -116,6 +125,7 @@ def print_options():
 def option_menu():
     global db_name, col, db
     print_options()
+    # just a big if-elif-else block to handle the user's choice
     choice = input("Enter your choice (1-7): \n")
     if choice == '1':
         display_collection_data(col)
@@ -133,6 +143,7 @@ def option_menu():
         print("Exiting server")
         exit()
     else:
+        # if the choice is not valid, print an error message and ask the user to try again
         print("Invalid choice")
         input("Press any key to continue...")
         print_options()
@@ -158,6 +169,7 @@ def run_server():
     global col, current_col, db
     db = connect_to_db()
     if db is None:
+        # if for some reason the connection to the database fails, print an error message and exit
         print("Error connecting to database")
         return
     else:
