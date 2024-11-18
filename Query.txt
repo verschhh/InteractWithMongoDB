@@ -1,0 +1,46 @@
+Query
+
+1) Calculate Consistent Poverty Rate Trend Over Years for a Region
+
+db.data.find({
+    "region.name": "Southern",
+    "poverty_indicator.label": "Consistent Poverty Rate"
+})
+.sort({ year: 1 })
+.project({ year: 1, "poverty_indicator.value": 1 })
+
+2) Identify Years with Highest At Risk of Poverty Rate
+
+db.data.find({ "poverty_indicator.label": "At Risk of Poverty Rate" })
+    .sort({ "poverty_indicator.value": -1 })
+    .limit(5)
+
+3) Get Average At Risk of Poverty Rate by Region
+
+db.data.aggregate([
+    { $match: { "poverty_indicator.label": "At Risk of Poverty Rate" } },
+    { $group: {
+        _id: "$region.name",
+        averageRate: { $avg: "$poverty_indicator.value" }
+    }}
+])
+
+4) Aggregate Median Income by Year Across All Regions
+
+db.data.aggregate([
+    { $group: {
+        _id: "$year",
+        averageMedianIncome: { $avg: "$poverty_indicator.median income" }
+    }},
+    { $sort: { _id: 1 } }
+])
+
+5) Find Maximum At Risk of Poverty Rate by Region
+
+db.data.aggregate([
+    { $match: { "poverty_indicator.label": "At Risk of Poverty Rate" } },
+    { $group: {
+        _id: "$region.name",
+        maxRate: { $max: "$poverty_indicator.value" }
+    }}
+])

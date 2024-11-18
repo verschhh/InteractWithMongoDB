@@ -1,0 +1,18 @@
+use CA2;
+
+db.createRole({
+    role: "adminRole",
+    privileges: [
+        {
+            resource: { db: "CA2", collection: "" },
+            actions: ["insert", "remove", "find", "update"]
+        }
+    ],
+    roles: []
+});
+
+db.createUser({
+    user: "Admin",
+    pwd: "pa33word",
+    roles: [{ role: "adminRole", db: "CA2" }]
+});

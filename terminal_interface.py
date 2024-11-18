@@ -3,7 +3,7 @@ import os
 
 db_name = "CA2"
 col = None
-current_col = ""
+current_col = None
 db = None
 
 # CONNECT TO THE DB
@@ -164,7 +164,6 @@ def run_server():
         print("Connected to database: ", db.name)
         # start server loop
         choose_collection(db)
-
     return
 
 run_server()

@@ -1,0 +1,847 @@
+[
+    {
+        "year": 2017,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 15.5,
+            "value type": "%",
+            "median income": 35.6,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2017,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 17.2,
+            "value type": "%",
+            "median income": 37.4,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2017,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 16.0,
+            "value type": "%",
+            "median income": 39.6,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2017,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 13.8,
+            "value type": "%",
+            "median income": 38.9,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2017,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 17.9,
+            "value type": "%",
+            "median income": 30.4,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2017,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 15.3,
+            "value type": "%",
+            "median income": 28.3,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2018,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 18.6,
+            "value type": "%",
+            "median income": 40.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2018,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 13.7,
+            "value type": "%",
+            "median income": 42.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2018,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 11.5,
+            "value type": "%",
+            "median income": 45.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2018,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 5.9,
+            "value type": "%",
+            "median income": 40.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2018,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 5.4,
+            "value type": "%",
+            "median income": 42.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2018,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 5.0,
+            "value type": "%",
+            "median income": 45.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2019,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 18.2,
+            "value type": "%",
+            "median income": 41.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2019,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 15.5,
+            "value type": "%",
+            "median income": 43.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2019,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 10.1,
+            "value type": "%",
+            "median income": 46.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2019,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 4.1,
+            "value type": "%",
+            "median income": 41.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2019,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 5.1,
+            "value type": "%",
+            "median income": 43.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2019,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 4.5,
+            "value type": "%",
+            "median income": 46.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2020,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 19.6,
+            "value type": "%",
+            "median income": 42.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2020,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 14.6,
+            "value type": "%",
+            "median income": 44.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2020,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 9.5,
+            "value type": "%",
+            "median income": 47.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2020,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 3.9,
+            "value type": "%",
+            "median income": 42.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2020,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 4.6,
+            "value type": "%",
+            "median income": 44.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2020,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 3.4,
+            "value type": "%",
+            "median income": 47.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2016,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 16.0,
+            "value type": "%",
+            "median income": 34.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2016,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 15.0,
+            "value type": "%",
+            "median income": 36.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2016,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 14.0,
+            "value type": "%",
+            "median income": 38.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2016,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 12.0,
+            "value type": "%",
+            "median income": 34.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2016,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 11.0,
+            "value type": "%",
+            "median income": 36.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2016,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 10.0,
+            "value type": "%",
+            "median income": 38.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2015,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 13.0,
+            "value type": "%",
+            "median income": 33.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2015,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 12.0,
+            "value type": "%",
+            "median income": 35.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2015,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 11.0,
+            "value type": "%",
+            "median income": 37.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2014,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 14.0,
+            "value type": "%",
+            "median income": 32.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2014,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 13.0,
+            "value type": "%",
+            "median income": 34.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2014,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 12.0,
+            "value type": "%",
+            "median income": 36.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2013,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 15.0,
+            "value type": "%",
+            "median income": 31.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2013,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 14.0,
+            "value type": "%",
+            "median income": 33.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2013,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 13.0,
+            "value type": "%",
+            "median income": 35.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2012,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 16.0,
+            "value type": "%",
+            "median income": 30.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2012,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 15.0,
+            "value type": "%",
+            "median income": 32.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2012,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 14.0,
+            "value type": "%",
+            "median income": 34.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2011,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 17.0,
+            "value type": "%",
+            "median income": 29.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2011,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 16.0,
+            "value type": "%",
+            "median income": 31.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2011,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 15.0,
+            "value type": "%",
+            "median income": 33.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2010,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 18.0,
+            "value type": "%",
+            "median income": 28.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2010,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 17.0,
+            "value type": "%",
+            "median income": 30.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2010,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 16.0,
+            "value type": "%",
+            "median income": 32.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2009,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 19.0,
+            "value type": "%",
+            "median income": 27.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2009,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 18.0,
+            "value type": "%",
+            "median income": 29.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2009,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 17.0,
+            "value type": "%",
+            "median income": 31.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2008,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 20.0,
+            "value type": "%",
+            "median income": 26.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2008,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 19.0,
+            "value type": "%",
+            "median income": 28.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2008,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 18.0,
+            "value type": "%",
+            "median income": 30.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2007,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 21.0,
+            "value type": "%",
+            "median income": 25.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2007,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 20.0,
+            "value type": "%",
+            "median income": 27.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2007,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "Consistent Poverty Rate",
+            "value": 19.0,
+            "value type": "%",
+            "median income": 29.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2009,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 22.0,
+            "value type": "%",
+            "median income": 29.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2009,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 21.0,
+            "value type": "%",
+            "median income": 31.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2008,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 24.0,
+            "value type": "%",
+            "median income": 26.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2008,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 23.0,
+            "value type": "%",
+            "median income": 28.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2008,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 22.0,
+            "value type": "%",
+            "median income": 30.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2007,
+        "region": {
+            "name": "Northern and Western"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 25.0,
+            "value type": "%",
+            "median income": 25.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2007,
+        "region": {
+            "name": "Southern"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 24.0,
+            "value type": "%",
+            "median income": 27.0,
+            "median income type": "Thousands"
+        }
+    },
+    {
+        "year": 2007,
+        "region": {
+            "name": "Eastern and Midland"
+        },
+        "poverty_indicator": {
+            "label": "At Risk of Poverty Rate",
+            "value": 23.0,
+            "value type": "%",
+            "median income": 29.0,
+            "median income type": "Thousands"
+        }
+    }
+]

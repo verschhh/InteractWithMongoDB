@@ -1,0 +1,15 @@
+{
+    "Database schema": {
+        "year": "int",
+        "region": {
+            "name": "string"
+        },
+        "poverty indicator": {
+            "label": "string",
+            "value": "float",
+            "value type": "string",
+            "median income": "float",
+            "median income type": "string"
+        }
+    }
+}
